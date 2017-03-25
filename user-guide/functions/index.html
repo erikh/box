@@ -109,7 +109,7 @@
                 </li>
                 
                 <li>
-                    <a href="https://github.com/erikh/box">
+                    <a href="https://github.com/box-builder/box">
                         
                             <i class="fa fa-github"></i>
                         
@@ -241,8 +241,8 @@ the user. This works by reading the /etc/passwd file in the image.</p>
 <p>Yields an error if it cannot find the user or from has not been called.</p>
 <p>Example:</p>
 <pre><code class="ruby">from &quot;debian&quot;
-run &quot;useradd -m -d /home/erikh -s /bin/sh erikh&quot;
-run &quot;id #{getuid(&quot;erikh&quot;)}&quot;
+run &quot;useradd -m -d /home/box-builder -s /bin/sh box-builder&quot;
+run &quot;id #{getuid(&quot;box-builder&quot;)}&quot;
 </code></pre>
 
 <h2 id="getgid">getgid</h2>
